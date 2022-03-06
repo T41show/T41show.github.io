@@ -1,0 +1,146 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+ 
+.container {
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10; 
+}
+
+.header-left {
+    float:left;
+    font-size: 20px;
+    color: white;
+}
+
+.star {
+    color: gold;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+
+.header-right p {
+    display: none;
+  }
+  
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+.cannot:active {
+    display: block;
+  }
+  
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+
+
+.top {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.x {
+    color: black;
+}
+
+.ue {
+    margin-top: 200px;
+}
+
+.shita {
+    margin: 100px 0 100px 0;
+}
+
+.botton {
+    position: relative;
+    padding: 15px 60px;
+    background-color: red;
+    color: black;
+    box-shadow: 0 6px darkred;
+    border-radius: 4px;
+}
+
+.botton:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.y {
+    margin-top: 1400px;
+}
+
+.contact-form {
+    padding-top: 100px;
+  }
+
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+  }
+  
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+
+
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
